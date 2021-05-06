@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    background-color: mediumaquamarine;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+header article {
+    background:  mediumaquamarine;
+    padding: 10px 5px;
+    text-align: center;
+}
+header article a {
+    color: white;
+    font-size: 25px;
+
+}
+main nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color: darkturquoise;
+    text-align:center;
+    
+}
+
+.video1 {
+    grid-column: 1/3;
+    background-color: darkturquoise;
+
+}
+
+a {
+    text-decoration: none;
+}
+.footer1 {
+    text-align: center;
+    background-color: mediumaquamarine;
+    
+}
